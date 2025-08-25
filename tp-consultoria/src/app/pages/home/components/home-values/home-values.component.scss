@@ -1,0 +1,17 @@
+.home-values {
+    display: flex;
+    gap: 5rem;
+    border-top: 1px solid #ccc;
+    padding: 1rem;
+
+    &__numbers {
+        display: flex;
+        flex-direction: column;
+
+        p {
+            margin: unset;
+            font-weight: bold;
+            font-size: 24px;
+        }
+    }
+}
