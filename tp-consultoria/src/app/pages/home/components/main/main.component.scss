@@ -1,0 +1,91 @@
+h1 {
+    margin: unset;
+}
+
+.main {
+    display: flex;
+    width: -webkit-fill-available;
+    padding: 1rem 10rem;
+    gap: 2rem;
+    align-items: center;
+
+    @media (max-width: 768px) {
+        padding: 1rem;
+        flex-direction: column-reverse;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        height: -webkit-fill-available;
+        justify-content: space-between;
+
+        @media (max-width: 768px) {
+            width: 100%;
+        }
+
+        &-text {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+
+
+            @media (max-width: 768px) {
+                width: 100%;
+            }
+
+            p {
+                margin: unset;
+                color: #8c8181
+            }
+        }
+
+        &-btn {
+            margin-top: 1rem;
+
+            button {
+                width: 200px;
+                height: 50px;
+                padding: 0.5rem;
+                background-color: #034C8C;
+                border-radius: 4px;
+                border: unset;
+                color: white;
+
+                &:hover {
+                    background-color: #023E73;
+                }
+
+                @media (max-width: 768px) {
+                    width: 100%;
+                }
+            }
+        }
+
+    }
+
+    &__illustration {
+        width: 100%;
+        height: min-content;
+
+        img {
+            width: 100%;
+            min-width: 400px;
+            height: 100%;
+            object-fit: contain;
+            object-position: left;
+            display: block;
+
+            border-radius: 16px;
+
+            @media (max-width: 768px) {
+                width: 100%;
+                min-width: unset;
+            }
+        }
+    }
+
+    &__numbers {
+        margin-top: 1rem;
+    }
+}

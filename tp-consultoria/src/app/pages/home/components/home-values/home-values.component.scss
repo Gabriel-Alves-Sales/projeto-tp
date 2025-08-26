@@ -1,0 +1,30 @@
+.home-values {
+    display: flex;
+    gap: 5rem;
+    border-top: 1px solid #ccc;
+    padding: 1rem;
+
+    @media (max-width: 768px) {
+        width: -webkit-fill-available;
+
+        gap: unset;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    &__numbers {
+        display: flex;
+        flex-direction: column;
+        width: -webkit-fill-available;
+
+        p {
+            margin: unset;
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        span {
+            color: #8c8181
+        }
+    }
+}
