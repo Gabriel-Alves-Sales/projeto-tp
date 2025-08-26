@@ -1,0 +1,12 @@
+<div class="company-values">
+    <div class="company-values__value" *ngFor="let value of companyValues">
+        <!--ÍCONE-->
+        <img src="../../../../assets/icons/{{value.icon}}.png">
+
+        <!--TÍTULO-->
+        <p>{{value.title}}</p>
+
+        <!--DESCRIÇÃO-->
+        <span>{{value.description}}</span>
+    </div>
+</div>

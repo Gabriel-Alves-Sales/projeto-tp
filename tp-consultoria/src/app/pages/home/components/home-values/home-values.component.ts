@@ -5,6 +5,7 @@ import { IHomeValues } from './interfaces/home-values.interface';
 @Component({
   selector: 'app-home-values',
   imports: [CommonModule],
+  standalone: true,
   templateUrl: './home-values.component.html',
   styleUrl: './home-values.component.scss'
 })
