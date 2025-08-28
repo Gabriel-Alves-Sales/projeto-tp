@@ -3,7 +3,7 @@
 
     <div class="blog__fresh">
         <!--DESTAQUE-->
-        <div class="blog__fresh-principal">
+        <div class="blog__fresh-principal" (click)="navigateTo(principalNotice.id)">
             <!--IMAGEM-->
             <div class="blog__fresh-principal-img">
                 <img src="../../../../assets/news-images/{{principalNotice.image}}.jpg">
@@ -20,19 +20,23 @@
         <!--DEMAIS DESTAQUES-->
         <div class="blog__fresh-last">
             <div class="blog__fresh-last-news">
+
                 <!--NOTICIAS-->
                 <div class="blog__fresh-last-news-new" *ngFor="let notice of lastTwoNotices">
-                    <!--IMAGEM-->
-                    <div class="blog__fresh-last-news-new-img">
-                        <img src="../../../../assets/news-images/{{notice.image}}.jpg">
+                    <div class="blog__fresh-last-news-new-content" (click)="navigateTo(notice.id)">
+                        <!--IMAGEM-->
+                        <div class="blog__fresh-last-news-new-img">
+                            <img src="../../../../assets/news-images/{{notice.image}}.jpg">
+                        </div>
+
+                        <!--TITULO-->
+                        <p><b>{{principalNotice.title}}</b></p>
+                        <!--SUBTITULO-->
+                        <p>{{principalNotice.caption}}</p>
+                        <!--DESCRIÇÃO-->
+                        <span>{{principalNotice.description}}</span>
                     </div>
 
-                    <!--TITULO-->
-                    <p><b>{{principalNotice.title}}</b></p>
-                    <!--SUBTITULO-->
-                    <p>{{principalNotice.caption}}</p>
-                    <!--DESCRIÇÃO-->
-                    <span>{{principalNotice.description}}</span>
                 </div>
             </div>
 
