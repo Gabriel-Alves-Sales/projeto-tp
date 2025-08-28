@@ -15,6 +15,13 @@
             <p>{{principalNotice.caption}}</p>
             <!--DESCRIÇÃO-->
             <span><i>{{principalNotice.description}}</i></span>
+
+            <!--TAGS-->
+            <div class="blog__fresh-principal-tag">
+                <div class="blog__fresh-principal-tag-content" *ngFor="let tag of principalNotice.tags">
+                    <span>{{tag}}</span>
+                </div>
+            </div>
         </div>
 
         <!--DEMAIS DESTAQUES-->
@@ -30,11 +37,11 @@
                         </div>
 
                         <!--TITULO-->
-                        <p><b>{{principalNotice.title}}</b></p>
+                        <p><b>{{notice.title}}</b></p>
                         <!--SUBTITULO-->
-                        <p>{{principalNotice.caption}}</p>
+                        <p>{{notice.caption}}</p>
                         <!--DESCRIÇÃO-->
-                        <span>{{principalNotice.description}}</span>
+                        <span>{{notice.description}}</span>
                     </div>
 
                 </div>
