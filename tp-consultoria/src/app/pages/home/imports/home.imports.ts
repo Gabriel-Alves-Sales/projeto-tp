@@ -3,6 +3,7 @@ import { NavBarComponent } from "../../../shared/components/nav-bar/nav-bar.comp
 import { HomeValuesComponent } from "../components/home-values/home-values.component"
 import { MainComponent } from "../components/main/main.component"
 import { AboutComponent } from "../components/about/about.component"
+import { BlogComponent } from "../../blog/blog.component"
 
 export const HomeImports = [
     CommonModule,
@@ -11,5 +12,6 @@ export const HomeImports = [
     NavBarComponent,
     HomeValuesComponent,
     MainComponent,
-    AboutComponent
+    AboutComponent,
+    BlogComponent
 ]

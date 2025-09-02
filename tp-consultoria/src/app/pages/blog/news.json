@@ -1,0 +1,45 @@
+{
+    "notices": [
+        {
+            "id": "01",
+            "title": "Por que preciso de um plano de saúde?",
+            "caption": "Subtitle",
+            "description": "Descubra por que ter um plano de saúde é essencial para proteção financeira, atendimento rápido e prevenção de doenças, garantindo mais segurança e tranquilidade para você e sua família",
+            "author": "Chat",
+            "date": "dd/mm/yyyy",
+            "tags": [
+                "economia",
+                "saude"
+            ],
+            "image": "01",
+            "content": "<h1>Por que você precisa de um plano de saúde</h1>\n<p>Ter um plano de saúde não é apenas uma questão de conforto, mas de segurança e prevenção. No mundo atual, onde os custos médicos estão cada vez mais altos, contar com um serviço de saúde confiável pode fazer toda a diferença na hora de cuidar de você e de sua família.</p>\n\n<p><strong>Proteção financeira</strong></p>\n<p>Consultas, exames, internações e tratamentos podem representar gastos significativos. Um plano de saúde ajuda a reduzir o impacto financeiro dessas despesas, permitindo que você tenha acesso a cuidados médicos sem comprometer o orçamento.</p>\n\n<p><strong>Atendimento rápido e de qualidade</strong></p>\n<p>Com um plano de saúde, você tem acesso a uma rede de profissionais e hospitais de qualidade. Isso significa menor tempo de espera para consultas, exames e procedimentos, garantindo que você receba tratamento no momento certo.</p>\n\n<p><strong>Prevenção é o melhor remédio</strong></p>\n<p>Muitos planos de saúde oferecem programas de prevenção, check-ups regulares e orientações de bem-estar. Cuidar da saúde antes que surjam problemas graves não só melhora a qualidade de vida, como também evita complicações futuras.</p>\n\n<p><strong>Tranquilidade e segurança</strong></p>\n<p>Ter um plano de saúde traz a segurança de saber que, em caso de emergência, você terá suporte imediato. Essa tranquilidade é fundamental para viver com mais confiança e menos preocupações.</p>\n\n<p>Investir em um plano de saúde é investir em você. Mais do que um benefício, é uma forma de proteger sua saúde, sua família e seu futuro.</p>"
+        },
+        {
+            "id": "02",
+            "title": "Lisboa: saiba o que fazer na capital de Portugal",
+            "description": "Não espere apenas pastéis de nata e patrimônios históricos. Lisboa, conhecida como a Cidade das Sete Colinas, tem muito mais a oferecer.",
+            "author": "Nubank",
+            "date": "dd/mm/yyyy",
+            "tags": [
+                "economia",
+                "saude"
+            ],
+            "image": "02",
+            "content": "Conteúdo em html"
+        },
+        {
+            "id": "03",
+            "title": "Tíulo3",
+            "caption": "Subtitulo",
+            "description": "Breve descrição do assunto",
+            "author": "Autoria",
+            "date": "dd/mm/yyyy",
+            "tags": [
+                "economia",
+                "saude"
+            ],
+            "image": "03",
+            "content": "Conteúdo em html"
+        }
+    ]
+}

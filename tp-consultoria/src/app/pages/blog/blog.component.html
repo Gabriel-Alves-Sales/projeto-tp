@@ -1,0 +1,56 @@
+<div class="blog">
+    <h1>Blog</h1>
+
+    <div class="blog__fresh">
+        <!--DESTAQUE-->
+        <div class="blog__fresh-principal" (click)="navigateTo(principalNotice.id)">
+            <!--IMAGEM-->
+            <div class="blog__fresh-principal-img">
+                <img src="../../../../assets/news-images/{{principalNotice.image}}.jpg">
+            </div>
+
+            <!--TITULO-->
+            <p><b>{{principalNotice.title}}</b></p>
+            <!--SUBTITULO-->
+            <p>{{principalNotice.caption}}</p>
+            <!--DESCRIÇÃO-->
+            <span><i>{{principalNotice.description}}</i></span>
+
+            <!--TAGS-->
+            <div class="blog__fresh-principal-tag">
+                <div class="blog__fresh-principal-tag-content" *ngFor="let tag of principalNotice.tags">
+                    <span>{{tag}}</span>
+                </div>
+            </div>
+        </div>
+
+        <!--DEMAIS DESTAQUES-->
+        <div class="blog__fresh-last">
+            <div class="blog__fresh-last-news">
+
+                <!--NOTICIAS-->
+                <div class="blog__fresh-last-news-new" *ngFor="let notice of lastTwoNotices">
+                    <div class="blog__fresh-last-news-new-content" (click)="navigateTo(notice.id)">
+                        <!--IMAGEM-->
+                        <div class="blog__fresh-last-news-new-img">
+                            <img src="../../../../assets/news-images/{{notice.image}}.jpg">
+                        </div>
+
+                        <!--TITULO-->
+                        <p><b>{{notice.title}}</b></p>
+                        <!--SUBTITULO-->
+                        <p>{{notice.caption}}</p>
+                        <!--DESCRIÇÃO-->
+                        <span>{{notice.description}}</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--BOTAO VEJA MAIS-->
+            <div class="blog__fresh-last-btn">
+                <button>Veja mais</button>
+            </div>
+        </div>
+    </div>
+</div>
