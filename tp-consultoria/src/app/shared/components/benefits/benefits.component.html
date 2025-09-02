@@ -1,0 +1,10 @@
+@if(benefits){
+<div class="benefits">
+    <div class="benefits__row" *ngFor="let benefit of benefits">
+        <!--ÍCONE-->
+        <img src="../../../../assets/icons/{{benefit.icon}}.png">
+        <!--TEXTO-->
+        <span>{{benefit.text}}</span>
+    </div>
+</div>
+}

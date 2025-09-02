@@ -1,0 +1,17 @@
+.benefits {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+
+    &__row {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+
+        img {
+            width: 24px;
+            height: 24px;
+        }
+    }
+}
